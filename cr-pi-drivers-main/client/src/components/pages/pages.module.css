@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(28, 30, 47);
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.input {
+  padding: 3px;
+  width: 50px;
+  text-align: center;
+  border: none;
+  background-color: #83b3e6;
+  border-radius: 20px;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  outline: none;
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: #83b3e6;
+}
+.p {
+  color: antiquewhite;
+  padding: 8px;
+  font-size: 20px;
+}

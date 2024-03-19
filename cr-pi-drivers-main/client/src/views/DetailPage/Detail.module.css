@@ -1,0 +1,58 @@
+.divDetail {
+  display: flex;
+  flex-direction: column; /* Cambia a disposición de columna en pantallas pequeñas */
+  align-items: center;
+  text-align: center; /* Centra el contenido en pantalla pequeña */
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.img {
+  height: auto; /* Ajusta la altura de la imagen automáticamente */
+  max-width: 100%; /* Limita el ancho máximo de la imagen para evitar desbordamientos */
+  margin: 20px 0; /* Espaciado alrededor de la imagen */
+}
+
+.imge {
+  height: auto; /* Ajusta la altura de la imagen automáticamente */
+  width: 100%; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+  border-radius: 50%;
+}
+
+.description {
+  color: white;
+  max-width: 100%; /* Aprovecha el ancho completo del contenedor */
+  margin: 0 20px; /* Espaciado interior del contenedor */
+}
+
+.description1 {
+  margin-bottom: 20px; /* Espaciado inferior entre elementos */
+}
+
+.description h1 {
+  font-size: 40px; /* Ajusta el tamaño del encabezado principal para pantallas pequeñas */
+}
+
+.description h2 {
+  font-size: 30px; /* Ajusta el tamaño del encabezado secundario para pantallas pequeñas */
+}
+
+.description h3 {
+  font-size: 20px; /* Ajusta el tamaño del tercer nivel de encabezado para pantallas pequeñas */
+}
+
+.description p {
+  font-size: 18px; /* Ajusta el tamaño del párrafo para pantallas pequeñas */
+}
+
+@media (min-width: 768px) {
+  .divDetail {
+    flex-direction: row; /* Vuelve a la disposición horizontal en pantallas más grandes */
+    justify-content: space-between;
+  }
+
+  .img,
+  .imge,
+  .description {
+    max-width: 50%; /* Limita el ancho de estos elementos en pantallas más grandes */
+  }
+}

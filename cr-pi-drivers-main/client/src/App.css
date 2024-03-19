@@ -1,0 +1,10 @@
+.APP {
+  min-height: 100vh;
+  background-image: url("https://images6.alphacoders.com/129/1294336.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-attachment: fixed;
+}

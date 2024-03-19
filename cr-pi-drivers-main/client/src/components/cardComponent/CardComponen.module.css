@@ -1,0 +1,58 @@
+.CardComponent {
+  margin-top: 50px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  justify-content: center;
+}
+.titulo {
+  color: rgb(28, 30, 47);
+}
+.titulo:hover {
+  color: rgb(45, 48, 67);
+}
+.select {
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.select:hover {
+  background-color: rgb(45, 48, 67);
+  color: white;
+}
+h1 {
+  margin: 0;
+}
+h5 {
+  color: antiquewhite;
+}
+.nameNoEnc {
+  color: beige;
+  height: 340px;
+  background-color: rgb(45, 48, 67);
+  width: 340px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+.boton {
+  background-color: rgb(28, 30, 47);
+  color: white;
+  margin-right: 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 300px;
+}
+@media (max-width: 768px) {
+  .boton {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+  }
+}
